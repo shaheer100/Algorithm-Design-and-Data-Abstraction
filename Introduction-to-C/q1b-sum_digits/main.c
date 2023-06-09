@@ -12,7 +12,6 @@ int sum_digits_simple(int n) {
   }
 }
 
-
 // sum_digits_acc_helper(n, acc) returns the sum of all digits 
 //   in a number using accumulative recursion.
 // requires: n must be non-negative
