@@ -4,7 +4,6 @@ For example, if the input is:
 
 5 9
 The expected output for draw_diamond would be:
-
    *
   /o\
  /ooo\
@@ -25,4 +24,3 @@ The expected output for draw_diamond would be:
    \ooo/
     \o/
      *
-
