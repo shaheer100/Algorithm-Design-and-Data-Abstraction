@@ -1,0 +1,1 @@
+[q3-upc] Implement the function validate_upc(upc). See the documentation of validate_upc in main.c for more information. You must use one or more recursive helper functions. To make sure that your implementation is correct, write your own assertion-based tests.
