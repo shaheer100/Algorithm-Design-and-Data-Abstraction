@@ -1,3 +1,21 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+// INTEGRITY STATEMENT (v4)
+//
+// By signing your name and ID below you are stating that you have agreed
+// to the online academic integrity statement posted on edX:
+// (Course > Assignments > Assignment Information & Policies > Academic Integrity Policy)
+/////////////////////////////////////////////////////////////////////////////////////////
+// I received help from and/or collaborated with:
+
+// no one.
+//
+// Name: shaheer sheeraz
+// login ID: ssheeraz
+//////////////////////////////////////////////////////////////////////////////////////////
+
+// This code doesn't do anything special.
+// We just wanted some fun names (identifiers)
+
 #include "cs136.h"
 
 const int d = 95;
