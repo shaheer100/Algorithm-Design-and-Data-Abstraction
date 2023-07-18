@@ -1,0 +1,17 @@
+team 1 100
+team 2 1000
+team 3 1300
+
+add_player 1 100 1000
+add_player 1 101 90
+add_player 1 102 10
+add_player 1 103 10
+
+add_player 2 200 1000
+sell_player 1 101 2
+sell_player 2 200 1
+
+trade_players 2 200 1 102
+
+print 1
+print 2
