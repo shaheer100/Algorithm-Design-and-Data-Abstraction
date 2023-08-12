@@ -1,0 +1,55 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+// INTEGRITY STATEMENT (v4)
+//
+// By signing your name and ID below you are stating that you have agreed
+// to the online academic integrity statement posted on edX:
+// (Course > Assignments > Assignment Information & Policies > Academic Integrity Policy)
+/////////////////////////////////////////////////////////////////////////////////////////
+// I received help from and/or collaborated with:
+
+// no one.
+//
+// Name: shaheer sheeraz
+// login ID: ssheeraz
+//////////////////////////////////////////////////////////////////////////////////////////
+
+1) A justification of the translate function.
+
+Let n be the length of the string.
+Loop: Sum[i=0..i=n-1]: O(1)
+            = O(n)
+
+2) A justification of the count function.
+
+add an integer (just a simple function -> O(1))
+we recurse over the arrays we cut in half, so referring to the recursion table and the 
+fact that we recurse twice (one for low and one for high), it'd be O(n).
+Let n be the length of the string.
+T(n) = O(1) + 2 * T(n/2)
+     = O(n)
+
+3) A justification of the magic function.
+
+There are other functions in the loop such as strlen and printing a string but they 
+are O(m) in nature when "added" up
+            strlen(m) = O(m)
+            = O(m)
+            printf("%s", m) = O(m)
+            = O(m)
+
+so:
+
+Let m be the length of the str2. *(string length not array length)
+Let n be the length of the str1. *(string length not array length)
+Inner Loop: Sum[j=0..j=m-1]:O(1)
+            = O(m)
+Outer Loop: Sum[i=0..i=n-1]:O(m)
+            = O(mn)
+
+4) A justification of the magic(2) function.
+
+Let n be the length of the array.
+Inner Loop: Sum[j=0..j=n-1]: O(1)
+            = O(n)
+Outer Loop: Sum[i=1..i=logn]: O(n)
+            = O(n*logn)
