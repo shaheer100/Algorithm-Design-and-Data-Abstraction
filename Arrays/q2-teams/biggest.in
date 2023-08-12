@@ -1,0 +1,65 @@
+team 1 10000
+team 2 10000
+team 3 10000
+team 4 10000
+team 5 10000
+
+add_player 1 10 1200
+add_player 1 14 4000
+add_player 1 13 3000
+add_player 1 12 800
+add_player 1 11 500
+add_player 1 15 300
+
+add_player 2 20 2000
+add_player 2 21 2000
+add_player 2 22 2000
+add_player 2 23 4000
+add_player 2 25 10
+
+add_player 3 30 3000
+add_player 3 31 3000
+add_player 3 32 2300
+
+add_player 4 40 4000
+add_player 4 41 1200
+add_player 4 42 1000
+add_player 4 43 1000
+
+print 1
+print 2
+print 3
+print 4
+
+is_on 1 10
+is_on 1 20
+
+sell_player 1 11 3
+sell_player 2 20 1
+sell_player 1 13 4
+
+trade_players 1 14 2 23
+is_on 1 23
+is_on 2 14
+print 1
+print 2
+
+trade_players 3 31 2 22
+is_on 3 31
+is_on 2 22
+
+trade_players 3 31 4 40
+is_on 3 40
+is_on 4 31
+print 3
+print 4
+
+trade_players 3 40 1 12
+is_on 3 40
+is_on 1 12
+
+trade_players 3 30 4 41
+is_on 4 30
+is_on 3 41
+print 3
+print 4
