@@ -1,0 +1,29 @@
+Teams are all initialized
+add_player failed : Team 1 has a full roster
+add_player failed : Team 2 doesn't have enough money
+Team 1 : #10 ($1200) #11 ($500) #12 ($800) #13 ($3000) #14 ($4000) player value = 9500 cash = 500
+Team 2 : #20 ($2000) #21 ($2000) #22 ($2000) #23 ($4000) player value = 10000 cash = 0
+Team 3 : #30 ($3000) #31 ($3000) #32 ($2300) player value = 8300 cash = 1700
+Team 4 : #40 ($4000) #41 ($1200) #42 ($1000) #43 ($1000) player value = 7200 cash = 2800
+Player 10 is on team 1
+Player 20 is not on team 1
+sell_player failed : Team 1 doesn't have enough money
+sell_player failed : Team 4 doesn't have enough money
+Player 23 is on team 1
+Player 14 is on team 2
+Team 1 : #10 ($1200) #12 ($800) #13 ($3000) #23 ($4000) player value = 9000 cash = 1000
+Team 2 : #14 ($4000) #20 ($2000) #21 ($2000) #22 ($2000) player value = 10000 cash = 0
+trade_players failed : Team 2 doesn't have enough money
+Player 31 is on team 3
+Player 22 is on team 2
+Player 40 is on team 3
+Player 31 is on team 4
+Team 3 : #11 ($500) #30 ($3000) #32 ($2300) #40 ($4000) player value = 9800 cash = 200
+Team 4 : #31 ($3000) #41 ($1200) #42 ($1000) #43 ($1000) player value = 6200 cash = 3800
+trade_players failed : Team 1 doesn't have enough money
+Player 40 is on team 3
+Player 12 is on team 1
+Player 30 is on team 4
+Player 41 is on team 3
+Team 3 : #11 ($500) #32 ($2300) #40 ($4000) #41 ($1200) player value = 8000 cash = 2000
+Team 4 : #30 ($3000) #31 ($3000) #42 ($1000) #43 ($1000) player value = 8000 cash = 2000
